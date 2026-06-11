@@ -1,0 +1,24 @@
+{
+  "name": "bubble-paws",
+  "version": "1.0.0",
+  "description": "Static website for Bubble Paws, a professional animal trimming service.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check": "node --check api/signup.js && node --check js/auth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sara-daryaei/bubble-paws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sara-daryaei/bubble-paws/issues"
+  },
+  "homepage": "https://github.com/sara-daryaei/bubble-paws#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0"
+  }
+}

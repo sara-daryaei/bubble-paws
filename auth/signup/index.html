@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="../../css/main.css" />
     <link rel="stylesheet" href="../../css/auth.css" />
+    <script src="../../js/auth.js" defer></script>
   </head>
   <body>
     <section class="login-section signup">
@@ -20,28 +21,29 @@
           </div>
           <h3 class="text-center mb-2">Create Your Account</h3>
           <p class="text-center mb-4">Save your pet information and request grooming appointments faster.</p>
-          <form>
+          <form data-signup-form>
             <div class="row">
               <div class="col-md-6">
                 <label for="fullName" class="form-label">Full Name</label>
-                <input type="text" id="fullName" class="form-control" required />
+                <input type="text" id="fullName" name="fullName" class="form-control" required />
               </div>
               <div class="col-md-6">
                 <label for="phone" class="form-label">Phone Number</label>
-                <input type="tel" id="phone" class="form-control" />
+                <input type="tel" id="phone" name="phone" class="form-control" />
               </div>
             </div>
 
             <label for="email" class="form-label">Email Address</label>
-            <input type="email" id="email" class="form-control" required />
+            <input type="email" id="email" name="email" class="form-control" required />
 
             <label for="petName" class="form-label">Pet Name</label>
-            <input type="text" id="petName" class="form-control" />
+            <input type="text" id="petName" name="petName" class="form-control" />
 
             <label for="password" class="form-label">Password</label>
-            <input type="password" id="password" class="form-control" required />
+            <input type="password" id="password" name="password" class="form-control" minlength="8" required />
 
             <button type="submit" class="btn btn-primary w-100 mt-2">Create Account</button>
+            <p class="small text-center mt-3 mb-0" data-signup-status aria-live="polite"></p>
           </form>
           <hr />
           <p class="text-center mb-0">
