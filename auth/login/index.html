@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In - Bubble Paws</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/auth.css" />
+  </head>
+  <body>
+    <section class="login-section">
+      <div class="container">
+        <div class="mx-auto login-card">
+          <div class="logo text-center">
+            <a class="navbar-brand" href="../../index.html">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.5 4C7.67 4 7 4.67 7 5.5C7 6.33 7.67 7 8.5 7C9.33 7 10 6.33 10 5.5C10 4.67 9.33 4 8.5 4Z" fill="#d4a373" />
+                <path d="M15.5 4C14.67 4 14 4.67 14 5.5C14 6.33 14.67 7 15.5 7C16.33 7 17 6.33 17 5.5C17 4.67 16.33 4 15.5 4Z" fill="#d4a373" />
+                <path d="M5 7C4.17 7 3.5 7.67 3.5 8.5C3.5 9.33 4.17 10 5 10C5.83 10 6.5 9.33 6.5 8.5C6.5 7.67 5.83 7 5 7Z" fill="#d4a373" />
+                <path d="M19 7C18.17 7 17.5 7.67 17.5 8.5C17.5 9.33 18.17 10 19 10C19.83 10 20.5 9.33 20.5 8.5C20.5 7.67 19.83 7 19 7Z" fill="#d4a373" />
+                <path d="M12 9C9.79 9 8 10.79 8 13C8 15.76 9.24 18 12 20C14.76 18 16 15.76 16 13C16 10.79 14.21 9 12 9Z" fill="#d4a373" />
+              </svg>
+              Bubble Paws
+            </a>
+          </div>
+          <h3 class="text-center mb-2">Welcome Back</h3>
+          <p class="text-center mb-4">Sign in to manage appointments and pet details.</p>
+          <form>
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="you@example.com" required />
+
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter your password" required />
+
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="remember" />
+                <label class="form-check-label" for="remember">Remember me</label>
+              </div>
+              <a href="../../contact/index.html">Need help?</a>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Sign In</button>
+          </form>
+          <hr />
+          <p class="text-center mb-0">
+            New to Bubble Paws?
+            <a href="../signup/index.html">Create an account</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

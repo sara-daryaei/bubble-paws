@@ -1,4 +1,4 @@
-# Bubble Paws
+﻿# Bubble Paws
 
 Static website for Bubble Paws, a professional animal trimming service.
 

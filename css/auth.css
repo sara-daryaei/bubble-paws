@@ -1,0 +1,43 @@
+.login-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, var(--bg-cream) 0%, #ede8df 100%);
+    padding: 3rem 0;
+}
+
+.login-card {
+    background-color: var(--bg-white);
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+    max-width: 450px;
+    width: 100%;
+}
+
+
+.signup > .login-card {
+    max-width: none;
+}
+
+.login-card .logo {
+    margin-bottom: 1.5rem;
+}
+
+.login-card h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.login-card p {
+    color: var(--text-medium);
+}
+
+.login-card .form-control {
+    margin-bottom: 1rem;
+}
+
+.login-card hr {
+    border-color: #e5e5e5;
+    opacity: 1;
+}
