@@ -1,0 +1,36 @@
+.benefits-section {
+    padding: 5rem 0;
+    background-color: var(--bg-white);
+}
+
+.benefits-section h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(
+            135deg,
+            var(--secondary-color),
+            var(--accent-peach)
+    );
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    transition: var(--transition);
+}
+
+.card:hover .icon-circle {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.icon-circle svg {
+    width: 32px;
+    height: 32px;
+}

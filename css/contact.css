@@ -1,0 +1,101 @@
+.contact-section {
+    padding: 3rem 0 5rem;
+}
+
+.contact-form-wrapper {
+    background-color: var(--bg-white);
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+    margin-bottom: 2rem;
+}
+
+.contact-form-wrapper h3 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.contact-info-wrapper .card {
+    margin-bottom: 1.5rem;
+}
+
+.contact-item {
+    padding: 1.5rem;
+}
+
+.contact-item h6 {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.contact-item p {
+    margin-bottom: 0.25rem;
+    color: var(--text-medium);
+    font-size: 0.95rem;
+}
+
+.contact-item svg {
+    flex-shrink: 0;
+}
+
+.map-placeholder {
+    background-color: var(--bg-white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 5rem 0;
+    background-color: var(--bg-cream);
+}
+
+.faq-section h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.faq-section .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+/* ===================================
+   FORMS
+   =================================== */
+
+.form-label {
+    color: var(--text-dark);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.form-control,
+.form-select {
+    border: 2px solid #e5e5e5;
+    border-radius: var(--border-radius-sm);
+    padding: 0.75rem 1rem;
+    transition: var(--transition);
+    font-size: 0.95rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.1);
+    outline: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.form-check-label {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+}
