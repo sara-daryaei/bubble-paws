@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "check": "node --check api/signup.js && node --check js/auth.js"
+    "check": "node --check api/signup.js && node --check api/contact.js && node --check js/auth.js && node --check js/contact.js"
   },
   "repository": {
     "type": "git",

@@ -21,6 +21,7 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="../css/main.css"/>
 	<link rel="stylesheet" href="../css/contact.css"/>
+	<script src="../js/contact.js" defer></script>
 
 </head>
 <body>
@@ -123,7 +124,7 @@
 			<div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
 				<div class="contact-form-wrapper">
 					<h3 class="mb-4">Send Us a Message</h3>
-					<form action="../php/copy-from-AI.php" method="POST" target="_blank">
+					<form data-contact-form>
 						<div class="row">
 							<div class="col-md-6 mb-3">
 								<label for="fullName" class="form-label">Full Name</label>
@@ -187,6 +188,18 @@
 						</div>
 						
 						<div class="mb-3">
+							<label for="appointmentDate" class="form-label">Preferred Appointment Date</label>
+							<input
+									type="date"
+									class="form-control"
+									id="appointmentDate"
+									name="appointmentDate"
+									data-appointment-date
+							/>
+							<div class="form-text">Choose a date if you want to book a grooming appointment.</div>
+						</div>
+						
+						<div class="mb-3">
 							<label for="message" class="form-label">Message</label>
 							<textarea
 									class="form-control"
@@ -232,6 +245,7 @@
 						<button type="submit" class="btn btn-primary btn-lg w-100">
 							Send Message
 						</button>
+						<p class="small text-center mt-3 mb-0" data-contact-status aria-live="polite"></p>
 					</form>
 				</div>
 			</div>
