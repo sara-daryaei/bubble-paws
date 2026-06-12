@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/sara-daryaei/bubble-paws#readme",
   "dependencies": {
-    "@neondatabase/serverless": "^1.1.0"
+    "@neondatabase/serverless": "^1.1.0",
+    "nodemailer": "^8.0.11"
   }
 }
